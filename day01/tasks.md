@@ -1,7 +1,7 @@
 ## Introduction - Day 1
 
 Solve Git problems
-- Install git on your local envaironment
+- Install git on your local environment
 - Config your global settings
 - Create a local git repository
 - Add a new file to the repo
@@ -32,7 +32,7 @@ Solve Docker problems
 - Pull some image from DockerHub
 - List down images
 - Create container from images
-- List running and all container
+- List all running and stop container
 - Stop, start, restart and kill the containers.
 - Inspect the container
 - Remove all containers
