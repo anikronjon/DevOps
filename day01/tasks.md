@@ -34,6 +34,7 @@ Solve Docker problems
 - Create container from images
 - List all running and stop container
 - Stop, start, restart and kill the containers.
+- Access inside of a container
 - Inspect the container
 - Remove all containers
 - Remove all images

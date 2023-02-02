@@ -1,24 +1,61 @@
 ## GIT
 
-Solution: Install git on your local environment
+Install git on your local environment
 - Download git from 
+- Run the exe file
 
-Problem01: Config your global settings
+### Config your global settings
+```docker
+# Set Name and Email for all repository using --global
+git config --global user.name "user_name"
+git config --global user.email useremail@gmail.com
+```
 
+### Create a local git repository
+```docker
+# initialize git repository
+git init
+```
 
-Problem01: Create a local git repository
+### Add a new file to the repo
+```docker
+touch new_file.txt
+```
 
+### Add the file to the staging environment
+```docker
+# For single file
+git add new_file.txt
+# or all file
+git add .
+# or only for txt file
+git add *.txt
+```
 
-Problem01: Add a new file to the repo
+### Create a commit
+```docker
+git commit -am "commit name"
+```
 
+### Create a new branch
+```docker
+# To create new branch
+git branch newbranch
 
-Problem01: Add the file to the staging environment
+# Go to this branch
+git checkout newbranch
+# or
+git switch newbranch
 
+# or (create and get inside of new branch -in one command)
+git checkout -b newbranch
 
-Problem01: Create a commit
+```
 
-
-Problem01: Create a new branch
-
-
-Problem01: Go to main/master branch
+### Go to main/master branch
+```docker
+# checkout freture branch to main/master branch
+git checkout master
+# or 
+git switch master
+```
