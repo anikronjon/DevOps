@@ -44,7 +44,4 @@ kubectl get node
 kubectl get no
 ```
 
-## Deploy app
-```
-# kubectl create deployment _deployment_name_ --image=_image_name_
-kubectl create deployment ubuntuApp --image=ubuntu
+
